@@ -1642,7 +1642,7 @@ LevelEndScreen.prototype.setUp = function() {
 	a += '<div  id="start_next_level" class="nextButton">' + c + "</div>";
 	a += '<div class="nxtLink endMain_level' + this.mApplication.nLevelCounter + '">	';
 	a += "<br/><br/><br/>";
-	a += '<a href="javascript:showOverlay();" id ="linkToHB" class="endMain_level' + this.mApplication.nLevelCounter + '" ><span class="endMain_level' + this.mApplication.nLevelCounter + '"  style=" margin-left: -19px !Important; "><u>Master the ' + config["level_" + this.mApplication.nLevelCounter + "_End"].topic + " origami here! </u></span></a>";
+	a += '<a href="javascript:showOverlay();" id ="linkToHB" class="hnpCustomLink endMain_level' + this.mApplication.nLevelCounter + '" ><span class="endMain_level' + this.mApplication.nLevelCounter + '"  style=" margin-left: -19px !Important; "><u>Master the ' + config["level_" + this.mApplication.nLevelCounter + "_End"].topic + " origami here! </u></span></a>";
 	a += "</div></div>";
 	document.getElementById(this.mDivName).innerHTML = a;
 	var e = "images-level-" + this.mApplication.nLevelCounter + "-end-screen";
@@ -2051,7 +2051,7 @@ WinnerScreen.prototype.setUp = function() {
 	a += "<div >";
 	a += '<div id="winner_screen_img_holder" style="width:839px; height:470px;margin-top: 50px;margin-left: 25px;"></div><br/>';
 	a += '<div id= "learn_more" class="clickButton clickHereMore_Hack playagain_button_ongame_end">Play again</div>';
-	a += '<div id= "learn_more_dup" class="clickButton clickHereMore_Hack">Click here to Learn more</div>';
+	a += '<div id= "learn_more_dup" class="clickButton clickHereMore_Hack">Click here to learn more</div>';
 	a += "</div>";
 	document.getElementById(this.mDivName).innerHTML = a;
 	var d = "images-winner-end-screen";

@@ -545,7 +545,7 @@ p.congEndTxt2 {
 	margin-top: 55px !important;
 }
 
-.nxtLink a:link, a:visited, a:hover, a:active {
+.hnpCustomLink {
 	font-size: 18px !important;
 	line-height: 25px !important;
 	margin-left: 50px !important;
@@ -752,7 +752,7 @@ cursor: pointer;
 font-family: verdana,arial,helvetica,sans-serif;
 bottom: 423px;
 position: absolute;
-right: 242px;
+right: 170px;
 height: 27px;
 width: 82px;
 z-index: 10;
