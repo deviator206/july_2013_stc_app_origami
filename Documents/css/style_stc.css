@@ -357,11 +357,15 @@ textarea[contenteditable] {
 	cursor: pointer;
 }
 
+.marginshift
+{
+	margin-left: 5px !important;
 
+}
 .gameplaybackButton
 {
 	margin-left: 15px;
-	width: 76px!Important;
+	width: 107px!Important;
 }
 .backButton:hover {
 	background-color: #666;
@@ -758,6 +762,7 @@ width: 82px;
 z-index: 10;
 cursor: pointer;
 color: white;
+background-image: url("data:image/gif;base64,R0lGODlhAQABAJH/AP///wAAAMDAwAAAACH5BAEAAAIALAAAAAABAAEAQAICVAEAOw==");
 	
 	
 }

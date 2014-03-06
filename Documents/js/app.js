@@ -1514,9 +1514,9 @@ GamePlayScreen.prototype.sidePanel = function() {
 	document.getElementById("sidePanel").className = "rgtMenu";
 	var h = document.createElement("div");
 	h.setAttribute("id", "backButtonOnGamePlay");
-	h.innerHTML = " Back";
+	h.innerHTML = "Start Over";
 	document.getElementById("sidePanel").appendChild(h);
-	h.className = "backButton gameplaybackButton";
+	h.className = "backButton gameplaybackButton marginshift";
 	var f = this;
 	document.getElementById("backButtonOnGamePlay").onclick = function() {
 		f.mApplication.setGameState(50);
@@ -1900,13 +1900,12 @@ SplashScreen.prototype.setUp = function() {
 					a += 'Each pillar conveys a distinct, strategic imperative and the <br />';
 					a += 'four pillars contribute to the evolution of a High<br />';
 					a += 'Performance Nation- represented by four birds riding on the<br />';
-					a += 'back of the Peacock, the nationalbird of India.';
+					a += 'back of the Peacock, the national bird of India.';
 				a += '</p>';
                 a += '<p class="introparaLeft" style="line-height: 27px;">';
-					a += 'India: A Flight of Ideas celebrates this journey Join the<br />';
-					a += 'adventure by answering questions that will help create the<br />';
-					a += 'four origami birds, which descends on the Peacock- creating<br />';
-					a += 'a unified vision of our High Performance Nation';
+					a += 'Join the adventure by answering questions that will help<br />';
+					a += 'create the four origami birds, which descends on the<br />';
+					a += 'Peacock- creating a unified vision of our High Performance Nation.';
 				a += '</p>';
                 a += '<div  id= "intro_play_now" class="playButton">Play now</div>';
 			a += '</div>';
@@ -1939,13 +1938,12 @@ SplashScreen.prototype.setUp = function() {
 					a += 'Each pillar conveys a distinct, strategic imperative and the <br />';
 					a += 'four pillars contribute to the evolution of a High<br />';
 					a += 'Performance Nation&ndash;represented by four birds riding on the<br />';
-					a += 'back of the Peacock, the nationalbird of India.';
+					a += 'back of the Peacock, the national bird of India.';
 				a += '</p>';
                 a += '<p class="introparaLeft" style="line-height: 27px;">';
-					a += 'India: A Flight of Ideas celebrates this journey Join the<br />';
-					a += 'adventure by answering questions that will help create the<br />';
-					a += 'four origami birds, which descends on the Peacock&ndash;creating<br />';
-					a += 'a unified vision of our High Performance Nation';
+					a += 'Join the adventure by answering questions that will help<br />';
+					a += 'create the four origami birds, which descends on the<br />';
+					a += 'Peacock&ndash;creatinga unified vision of our High Performance Nation.';
 				a += '</p>';
                 a += '<div  id= "intro_play_now" class="playButton">Play now</div>';
 			
@@ -2002,7 +2000,7 @@ GameOpeningPage.prototype.setUp = function() {
 	var a = "";
 	a += '<div id= "birds_animation" ></div>';
 	a += '<div id= "main_P" class="bird_peacock_anim"> ';
-	a += '<div id= "anim_content_text" class="anim_content"><span style="color: #A0B3D3;">INDIA:</span><span  style="  color: orange; font-weight: bold;" >&nbsp;A FLIGHT OF IDEAS</span></div>';
+	a += '<div id= "anim_content_text" class="anim_content"><span style="color: #A0B3D3;"></span><span  style="  color: orange; font-weight: bold;" >&nbsp;</span></div>';
 	a += '<div id= "how_to_play_back_btn_1" class="anim_how_to_play">How to Play</div>';
 	a += '<div id= "how_to_play_play_now_1" class="anim_play_now">Play the game</div>';
 	a += "</div>";
